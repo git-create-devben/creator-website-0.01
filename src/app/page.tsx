@@ -1,3 +1,7 @@
+import Hero from "@/Hero";
+
 export default function Page() {
-  return <div></div>;
+  return <div>
+    <Hero/>
+  </div>;
 }

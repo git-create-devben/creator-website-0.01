@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.wrapper{
+  position: relative;
+
+  .spline{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+  }
+}

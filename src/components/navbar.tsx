@@ -1,5 +1,4 @@
-import React from "react";
-
+import "./navbar.css"
 export default function Navbar() {
   const navbar = [
     { title: "Home", href: "/" },
@@ -10,7 +9,7 @@ export default function Navbar() {
   ];
 
   return (
-    <nav>
+    <nav className="navbar-wrapper">
       <ul>
         {navbar.map((item) => (
           <li key={item.title}>

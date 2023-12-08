@@ -1,0 +1,25 @@
+.navbar-wrapper {
+  padding: 30px;
+  padding-top: 50px;
+  margin-left: 100px;
+
+  ul {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+
+    li {
+      list-style: none;
+
+      a {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration: none;
+      }
+    }
+  }
+}

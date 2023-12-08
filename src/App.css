@@ -16,11 +16,63 @@
     font-style: normal;
     font-weight: 400;
     line-height: 8rem;
-    margin-top: 15rem;
-    margin-left: 10rem;
+    /* margin-top: 15rem;
+    margin-left: 10rem; */
+    overflow-y: hidden;
+  }
+
+  p {
+    color: #fff;
+    /* margin-top: 29rem;
+    margin-left: 10rem; */
+    font-size: 15px;
   }
 }
 
+.hero-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:170px;
+  color: #fff;
+
+.first_layout{
+ margin-left: 6rem;
+}
+  .second_layout {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 5rem;
+
+    .divider1 {
+      width: 1px;
+      height: 187.003px;
+      background: #d0b8ac;
+      margin-right: 6rem;
+      text-align: center;
+      position: relative;
+      gap: 2px;
+      /* margin-top: 50px; */
+
+    }
+    .divider2 {
+      width: 1px;
+      height: 187.003px;
+      background: #d0b8ac;
+      margin-right: 6rem;
+      text-align: center;
+      position: relative;
+      gap: 2px;
+      margin-top: 50px;
+
+    }
+  }
+  .content{
+    position: absolute;
+    margin-right: 400px;
+  }
+
+}
 
 @media (max-width: 768px) {
   .container {
@@ -33,18 +85,17 @@
     flex-shrink: 0;
     position: relative;
 
-    
-  h1 {
-    position: absolute;
-    color: #d0b8ac;
-    font-family: Glinster;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 8rem;
-    margin-top: 15rem;
-    margin-left: 3rem;
-  }
+    h1 {
+      position: absolute;
+      color: #d0b8ac;
+      font-family: Glinster;
+      font-size: 100px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 8rem;
+      margin-top: 15rem;
+      margin-left: 3rem;
+    }
   }
 }
 
@@ -59,17 +110,26 @@
     flex-shrink: 0;
     position: relative;
 
-    
-  h1 {
-    position: absolute;
-    color: #d0b8ac;
-    font-family: Glinster;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: 4rem;
-    margin-top: 15rem;
-    margin-left: 1rem;
-  }
+    h1 {
+      position: absolute;
+      color: #d0b8ac;
+      font-family: Glinster;
+      font-size: 50px;
+      font-style: normal;
+      font-weight: 200;
+      line-height: 4rem;
+      margin-top: 15rem;
+      margin-left: 1rem;
+    }
   }
 }
+
+.box {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ccc;
+}
+
+
+/* this is whre I stop */

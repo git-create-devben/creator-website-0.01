@@ -1,11 +1,11 @@
 import Hero from "./hero";
 
-function App(){
- return (
-  <div>
-      <Hero/>
-  </div>
- )
+function App() {
+  return (
+    <div>
+      <Hero />
+    </div>
+  );
 }
 
 export default App;

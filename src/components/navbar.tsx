@@ -1,6 +1,6 @@
 import "./navbar.css";
-import { useRef, useEffect } from "react";
-import { gsap } from "gsap";
+// import { useRef, useEffect } from "react";
+import { motion } from "framer-motion";
 export default function Navbar() {
   const navbar = [
     { title: "Home", href: "/" },
@@ -10,18 +10,14 @@ export default function Navbar() {
     { title: "contact", href: "/contact" },
   ];
 
-  const background = useRef<null>(null);
-
-  useEffect(() => {
-    gsap.to(background.current, {
-      // opacity: 1,
-      y:50,
-      duration:0.3,      
-      stagger: 0.2,
-    });
-  }, []);
   return (
-    <nav className="navbar-wrapper" ref={background}>
+    <motion.nav
+    transition={{
+      ease: "linear",
+      duration: 2,
+      x: { duration: 1 }
+    }}
+    className="navbar-wrapper" >
       <ul>
         <span className="logo">Christina.</span>
         {navbar.map((item) => (
@@ -30,6 +26,6 @@ export default function Navbar() {
           </li>
         ))}
       </ul>
-    </nav>
+    </motion.nav>
   );
 }

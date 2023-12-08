@@ -1,6 +1,6 @@
 .navbar-wrapper {
   padding: 30px;
-  padding-top: 20px;
+  padding-top: 50px;
   margin-left: 50px;
   /* opacity: 0; */
 
@@ -45,12 +45,15 @@
           align-items: center;
       
           .logo{
+            position: absolute;
               font-size: 30px;
               font-weight: bolder;
+              margin-left: -15rem;
           }
       
           li {
             list-style: none;
+            display:none;
       
             a {
               color: #fff;

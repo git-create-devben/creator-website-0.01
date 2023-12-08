@@ -1,12 +1,19 @@
 .navbar-wrapper {
   padding: 30px;
-  padding-top: 50px;
-  margin-left: 100px;
+  padding-top: 20px;
+  margin-left: 50px;
+  /* opacity: 0; */
 
   ul {
     display: flex;
     gap: 40px;
     align-items: center;
+
+    .logo{
+        color:goldenrod;
+        font-size: 40px;
+        font-weight: bolder;
+    }
 
     li {
       list-style: none;
@@ -22,4 +29,40 @@
       }
     }
   }
+}
+
+
+@media (max-width: 768px) {
+    .navbar-wrapper {
+        padding: 30px;
+        padding-top: 50px;
+        margin-left: 100px;
+      
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 40px;
+          align-items: center;
+      
+          .logo{
+              font-size: 30px;
+              font-weight: bolder;
+          }
+      
+          li {
+            list-style: none;
+      
+            a {
+              color: #fff;
+              font-family: Roboto;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      
 }

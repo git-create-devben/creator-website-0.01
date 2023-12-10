@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import Typed from "typed.js";
 import { motion } from "framer-motion";
 import { useFollowPointer } from "./components/useFollowPointer";
+
 // import { Divider } from "@mui/material";
 
 const Hero = () => {
@@ -39,11 +40,11 @@ const Hero = () => {
           <h1 ref={type}></h1>
           <p>I'm a professional photographer from New York</p>
         </div>
-        <div className="second_layout">
+        {/* <div className="second_layout">
           <div className="divider1"></div>
           <p className="content">Text</p>
           <div className="divider2"></div>
-        </div>
+        </div> */}
       </div>
 
       <motion.div
@@ -57,6 +58,7 @@ const Hero = () => {
           restDelta: 0.001,
         }}
       />
+    
     </div>
   );
 };

@@ -13,13 +13,14 @@
         color:goldenrod;
         font-size: 40px;
         font-weight: bolder;
+        cursor:pointer;
     }
 
     li {
       list-style: none;
 
       a {
-        color: #fff;
+        color: #ddddddec;
         font-family: Roboto;
         font-size: 20px;
         font-style: normal;
@@ -30,6 +31,35 @@
     }
   }
 }
+
+
+.navbar-wrapper {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  padding-top: 20px;
+  margin-left: 50px; */
+  color:#fff;
+
+  &.open {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.menu-button {
+  display: none;
+  @media (max-width: 768px) {
+    display: block;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+}
+
 
 
 @media (max-width: 768px) {

@@ -73,5 +73,6 @@
   body {
     @apply bg-background text-foreground;
     overflow-X: hidden;
+    background-color: #000;
   }
 }

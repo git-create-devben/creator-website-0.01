@@ -1,5 +1,5 @@
 import "./footer.css"
-const footer = () => {
+const Footer = () => {
   return (
     <div className="footer">
         <caption> &copy;  Copyright <i>Christina</i> develop by <b>devben</b></caption>
@@ -7,4 +7,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer

@@ -10,6 +10,7 @@ main{
   grid-row-gap: 10px;
   padding: 80px;
   background-color:#000;
+  margin-bottom: -30rem;;
   /* height: 50rem; */
 
   img {
@@ -27,7 +28,17 @@ main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+	margin-bottom: -1rem;
   }
+  .gride {
+	width: 80%;
+	margin: 0 auto;
+	line-height: 0;
+	position: relative;
+	height: 50rem;
+	/* margin-top: -30rem; */
+	/* background: #000; */
+}
 }
 
 @media (max-width: 768px) {
@@ -35,6 +46,7 @@ main{
 	  display: grid;
 	  grid-template-columns: repeat(1, 1fr);
 	  grid-template-rows: repeat(1, 1fr);
+	  margin-bottom: 10rem;
 	}
   }
 

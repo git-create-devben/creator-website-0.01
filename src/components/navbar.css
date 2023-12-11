@@ -38,30 +38,37 @@
     }
   }
 
-  .menu{
-   position: absolute;
-   right: 30px;
+  .menu {
+    display: none;
+    position: absolute;
+    right: 30px;
   }
 }
 
+@media (max-width: 786px) {
+  .navbar_wrapper {
+    padding: auto;
+    background-color: rgba(240, 248, 255, 0);
 
-@media (max-width:1024px) {
-     .navbar_wrapper{
-      padding: auto;
+    .logo {
+      font-size: 1.8rem;
+      align-self: baseline;
+    }
 
-      .logo{
-        font-size: 1.8rem;
-        align-self: baseline;
-      }
+    .nav_container {
+      display: flex;
+      flex-direction: column;
 
-      .nav_container{
+      ul {
         display: flex;
         flex-direction: column;
-
-        ul{
-          display: flex;
-          flex-direction: column;
-        }
       }
-     }
+    }
+
+    .menu {
+      /* align-self: baseline; */
+      display: block;
+      top: 68px;
+    }
+  }
 }

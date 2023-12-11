@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button"
 import img from "../assets/bg.png"
 const gallery = () => {
   return (
@@ -8,7 +9,7 @@ const gallery = () => {
                 <div className="flex flex-col gap-20px">
                  <div className="flex flex-row">
                   <h2>Christinadmrtzi</h2>
-                  
+                   <Button></Button>
                  </div>
                 </div>
             </div>

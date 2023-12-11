@@ -1,30 +1,14 @@
-import { useState, useEffect } from "react";
+// import { useRef} from "react";
+import { useState } from "react";
 import "./navbar.css";
 
-import { motion } from "framer-motion";
-
 export default function Navbar() {
-  const [showNav, setShowNav] = useState(false); // State to control navbar visibility
-  const [isMobile, setIsMobile] = useState(false); // State to determine mobile view
+  const [showNavbar, setShowNavbar] = useState(true);
 
-  useEffect(() => {
-    if (window.innerWidth <= 768) {
-      setIsMobile(true);
-    } else {
-      setIsMobile(false);
-    }
-
-    window.addEventListener("resize", () => {
-      if (window.innerWidth <= 768) {
-        setIsMobile(true);
-      } else {
-        setIsMobile(false);
-      }
-    });
-  }, []);
-
-  const toggleNav = () => setShowNav(!showNav);
-
+  const handleshow = () => {
+    setShowNavbar(!showNavbar);
+    console.log("show");
+  };
   const navbar = [
     { title: "Home", href: "/" },
     { title: "Gallery", href: "/Gallery" },
@@ -34,29 +18,24 @@ export default function Navbar() {
   ];
 
   return (
-    <div>
-      {isMobile && (
-        <button className="menu-button" onClick={toggleNav}>
-          {showNav ? "Close" : "Menu"}
-        </button>
-      )}
-      <motion.nav
-        className={`navbar-wrapper ${showNav ? "open" : ""}`}
-        transition={{
-          ease: "linear",
-          duration: 2,
-          x: { duration: 1 },
-        }}
-      >
-        <ul>
-          <span className="logo">Christina.</span>
-          {navbar.map((item) => (
-            <li key={item.title}>
-              <a href={item.href}>{item.title}</a>
-            </li>
-          ))}
-        </ul>
-      </motion.nav>
+    <div className="navbar_wrapper">
+      <span className="logo">Christina.</span>
+      <nav className="nav_container">
+        {showNavbar && (
+          <ul>
+            {navbar.map((item) => (
+              <li key={item.title}>
+                <a href={item.href}>{item.title}</a>
+              </li>
+            ))}
+          </ul>
+        )}
+      </nav>
+      <button className="menu" onClick={handleshow}>
+        menu
+      </button>
+
+      {/* <button>close</button> */}
     </div>
   );
 }

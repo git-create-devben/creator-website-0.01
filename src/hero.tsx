@@ -3,8 +3,8 @@ import Navbar from "./components/navbar";
 import { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import Typed from "typed.js";
-import { motion } from "framer-motion";
-import { useFollowPointer } from "./components/useFollowPointer";
+// import { motion } from "framer-motion";
+// import { useFollowPointer } from "./components/useFollowPointer";
 
 // import { Divider } from "@mui/material";
 
@@ -12,8 +12,8 @@ const Hero = () => {
   const background = useRef<null>(null);
   const type = useRef<null>(null);
 
-  const ref = useRef(null);
-  const { x, y } = useFollowPointer(ref);
+  // const ref = useRef(null);
+  // const { x, y } = useFollowPointer(ref);
 
   useEffect(() => {
     gsap.to(background, {
@@ -47,7 +47,7 @@ const Hero = () => {
         </div> */}
       </div>
 
-      <motion.div
+      {/* <motion.div
         ref={ref}
         className="box"
         animate={{ x, y }}
@@ -57,7 +57,7 @@ const Hero = () => {
           stiffness: 50,
           restDelta: 0.001,
         }}
-      />
+      /> */}
     
     </div>
   );

@@ -2,7 +2,7 @@ import "./footer.css"
 const footer = () => {
   return (
     <div className="footer">
-        <caption>Copyright 2023 develop by <code>devben</code></caption>
+        <caption> &copy;  Copyright <i>Christina</i> develop by <b>devben</b></caption>
     </div>
   )
 }

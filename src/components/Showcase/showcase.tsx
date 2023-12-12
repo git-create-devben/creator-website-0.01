@@ -22,7 +22,7 @@ export default function Showcase() {
       <img src={img} alt="" />
       <img src={img} alt="" /> */}
     </section>
-    <section className="gride">
+    <section className="gride ">
 	<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/portrait.jpg" alt=""/>
 	<article>
 		<div></div>

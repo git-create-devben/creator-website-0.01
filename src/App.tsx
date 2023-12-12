@@ -4,7 +4,7 @@ import Footer from "./components/footers/footer";
 
 function App() {
   return (
-    <div>
+    <div data-theme="dark">
       <Hero />
       <Showcase/>
       <Footer/>

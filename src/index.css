@@ -73,6 +73,9 @@
   body {
     @apply bg-background text-foreground;
     overflow-X: hidden;
-    background-color: #000;
+    /* background-color: #d11717; */
   }
+
+ 
 }
+

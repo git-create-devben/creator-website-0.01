@@ -1,20 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
+
 :root {
-  --color: #ddddddec;
+  --color: #f3ddd2f8;
   --logo: goldenrod;
 }
 
 .navbar_wrapper {
   padding: 50px;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
   gap: 80px;
 
   .logo {
     color: var(--logo);
-    font-size: 2.5rem;
-    font-weight: bolder;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 700;
     font-style: oblique;
     font-synthesis: style;
   }

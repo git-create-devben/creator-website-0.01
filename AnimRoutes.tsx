@@ -1,4 +1,4 @@
-import Gallery from "./src/gallery/gallery";
+import Gallery from "./src/pages/gallery/gallery";
 import Hero from "./src/pages/hero/hero";
 import { Routes, Route, useLocation } from "react-router-dom/";
 import { AnimatePresence } from "framer-motion";

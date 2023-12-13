@@ -1,7 +1,7 @@
 
 // import img from "../assets/bg.png";
 // import PhotoGallery from "./category";
-import IG from "../components/IG_design";
+import IG from "../../components/IG_design";
 
 const Gallery = () => {
 

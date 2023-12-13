@@ -33,13 +33,20 @@ export default function Navbar() {
       }}
       className=" navbar bg-transparent navbar_wrapper"
     >
-      <span className="logo">Christina.</span>
+      <span className="logo ">Christina.</span>
+      <p className="">hello</p>
       <nav className="nav_container">
         {showNavbar && (
           <ul>
             {navbar.map((item) => (
               <li key={item.title}>
-                <a href={item.href}>{item.title}</a>
+                <motion.a 
+                 whileHover={{scale:1.1}}
+                 transition={{
+                  duration: 1.4,
+                  ease: [0.6, 0.01, 0.05, 0.9]
+                }}
+                href={item.href}>{item.title}</motion.a>
               </li>
             ))}
           </ul>

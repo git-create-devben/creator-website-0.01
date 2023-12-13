@@ -1,7 +1,7 @@
 // import { useRef} from "react";
 import { useState } from "react";
 import "./navbar.css";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion,  } from "framer-motion";
 // import transition1 from "../../transition"
 
 
@@ -22,7 +22,7 @@ export default function Navbar() {
   ];
 
   return (
-    <AnimatePresence>
+    // <AnimatePresence initial={true} mode="wait">
     <motion.div
       initial={{ opacity: 0, y: '-50%'}}
       animate={{ opacity: 1, y: 0}}
@@ -52,7 +52,7 @@ export default function Navbar() {
       {/* <button>close</button> */}
     
     </motion.div>
-    </AnimatePresence>
+    // </AnimatePresence>
 
   );
 }

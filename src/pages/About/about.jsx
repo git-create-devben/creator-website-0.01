@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Footer from "../../components/footers/footer";
 import "./about.css";
 const about = () => {
   return (
@@ -20,8 +21,8 @@ const about = () => {
         </div>
         <div className="flex-initial lg:w-[60rem] rounded-[30px] bg-[#111] p-10">
           <hr className="w-24 font-extrabold hr mb-2 opacity-50" />
-          <h1 className="text-white lg:text-5xl text-2xl font-extrabold opacity-80 mb-2">
-            My Little Story
+          <h1 className="text-white lg:text-3xl text-2xl font-extrabold opacity-80 mb-2">
+            It all Started with Picture
           </h1>
           <p className="text-[0.82rem] text-white p-2 opacity-60">
             Hello, am Christina Demertzi, a passionate photographer from
@@ -29,7 +30,7 @@ const about = () => {
           </p>
           <hr className="mt-10 opacity-50 " />
           <div className="mt-2 p-10">
-            <p className="lg:text-md opacity-50 text-white lg:leading-8">
+            <p className="lg:text-[0.98rem] opacity-50 text-white lg:leading-8">
               My journey in photography is a testament to my love for
               storytelling through the lens. With a keen eye for capturing the
               extraordinary in the ordinary, I invite you to join me on a visual
@@ -72,6 +73,9 @@ const about = () => {
           </button>
           {/* Add your text content here */}
         </div>
+      </div>
+      <div className="lg:-mt-20">
+        <Footer />
       </div>
     </section>
   );

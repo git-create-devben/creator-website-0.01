@@ -1,5 +1,6 @@
 import "./contact.css";
 import { Link } from "react-router-dom";
+import Footer from "../../components/footers/footer";
 
 const Contact = () => {
   return (
@@ -21,7 +22,7 @@ const Contact = () => {
         </div>
         <div className="flex-initial lg:w-[60rem] rounded-[30px] bg-[#111] p-10">
           <hr className="w-24 font-extrabold hr  opacity-50 mb-2" />
-          <h1 className="text-white lg:text-6xl text-2xl font-extrabold opacity-80 mb-2">
+          <h1 className="text-[goldenrod] lg:text-6xl text-2xl font-extrabold opacity-80 mb-2">
             Get in Touch
           </h1>
           <p className="text-[0.82rem] text-white p-2 opacity-60">
@@ -76,9 +77,12 @@ const Contact = () => {
             ></textarea>
           </div>
           <button className="px-12 py-4 bg-white opacity-80 rounded-full">
-            <Link to={"/Gallery"}> My portfolio</Link>
+            <Link to={"/Gallery"}>Send Message</Link>
           </button>
         </div>
+      </div>
+      <div className="lg:-mt-20">
+        <Footer />
       </div>
     </section>
   );

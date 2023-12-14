@@ -1,8 +1,5 @@
-
 .single {
-  background: url('../../assets/13.jpg'); 
-  /* height: 50vh;
-  width: 70vw; */
+  background: url("../../assets/13.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

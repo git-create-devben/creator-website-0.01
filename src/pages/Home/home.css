@@ -1,20 +1,80 @@
-.section{
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/portrait.jpg);
-    height: 100vh;
-    width: 100%;
-    /* background-position: center; */
-    background-size: cover;
-    background-repeat: no-repeat;
-
+.section {
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/portrait.jpg);
+  height: 100vh;
+  width: 100%;
+  /* background-position: center; */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
-    .section{
-        background: url(/src/assets/bg.png);
-        height: 100vh;
-        width: 100%;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+  .section {
+    background: url(/src/assets/bg.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+.embla {
+  overflow: hidden;
+  padding: 0px 60px;
+}
+.embla__container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start; /* Add this */
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.slider1 {
+  background: url("../../assets/5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  max-width: 550px;
+  /* height: 46rem; */
+  width: 100%;
+}
+
+.slider2 {
+  background: url("../../assets/4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* aspect-ratio: 1/1; */
+  border-radius: 30px;
+  max-width: 1250px;
+  /* height: 46rem; */
+  width: 100%;
+}
+
+.slider3 {
+  background: url("../../assets/9.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  max-width: 550px;
+  /* height: 46rem; */
+  width: 100%;
+}
+.slider4 {
+  background: url("../../assets/18.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 1/1;
+  border-radius: 30px;
+  max-width: 1250px;
+  /* height: 46rem; */
+  width: 100%;
 }

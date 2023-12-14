@@ -1,0 +1,10 @@
+.service{
+    background: url('../../assets/bg2.jpg'); 
+    /* height: 50vh;
+    width: 70vw; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1/1;
+    border-radius: 30px;
+}

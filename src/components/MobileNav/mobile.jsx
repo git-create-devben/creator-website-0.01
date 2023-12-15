@@ -34,7 +34,7 @@ const Mobile = () => {
             <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-[#ccc] font-bold text-3xl">
                 <li className="hover:text-[#464040] hover:scale-[1.2]"><Link to={'/'}>Home</Link></li>
                 <li className="hover:text-[#464040] hover:scale-[1.2]"><Link to={'/Gallery'}>Gallery</Link></li>
-                <li className="hover:text-[#464040] hover:scale-[1.2]"><Link to={'/services'}>Services</Link></li>
+                <li className="hover:text-[#464040] hover:scale-[1.2]"><Link to={'/service'}>Services</Link></li>
                 <li className="hover:text-[#464040] hover:scale-[1.2]"><Link to={'/about'}>About</Link></li>
                 <li className="hover:text-[#464040] hover:scale-[1.2]"><Link to={'/contact'}>Contact</Link></li>
             </ul>

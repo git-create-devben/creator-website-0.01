@@ -4,12 +4,13 @@ import "./home.css";
 // import Text from "../../components/Typed/typed";
 const home = () => {
   return (
-    <section className="section">
-      {/* <Carousel /> */}
-      {/* <div className="lg:-mt-0 mt-10">
-        <Footer/>
-      </div> */}
-      {/* <Text/> */}
+    <section className="section flex flex-col justify-center lg:pl-48 pl-10 lg:pt-0 pt-48 -space-y-3">
+      <span className="text-4xl text-[#e49974] opacity-50">I&apos;m</span>
+      <h1 className="lg:text-[8rem] text-8xl text-[#D0B8AC]">
+        Christina <br /> Demertzi.
+      </h1>
+      <br />
+      <p className="text-[#FFFFFF] opacity-50">A professional photographer from New York</p>
     </section>
   );
 };

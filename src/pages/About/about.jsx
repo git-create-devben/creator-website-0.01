@@ -30,7 +30,7 @@ const about = () => {
           </p>
           <hr className="mt-10 opacity-50 " />
           <div className="mt-2 p-10">
-            <p className="lg:text-[0.98rem] opacity-50 text-white lg:leading-8">
+            <p className="lg:text-[0.98rem] text-[0.98rem] leading-6 opacity-50 text-white lg:leading-8">
               My journey in photography is a testament to my love for
               storytelling through the lens. With a keen eye for capturing the
               extraordinary in the ordinary, I invite you to join me on a visual

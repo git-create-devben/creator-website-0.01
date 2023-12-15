@@ -155,10 +155,8 @@ const Gallery = () => {
               />
             ))}
           </div>
-          <div className="flex justify-between text-white">
-            <button className="px-12 py-4 bg-white opacity-80 rounded-2xl text-black">
-              <Link to={"/contact"}>Contact us</Link>
-            </button>
+          <div className="flex justify-between items-center flex-wrap text-white">
+              <Link to={"/Gallery2"} className="text-sm underline">Change View</Link>
             <Pagination
               activePage={currentPage}
               itemsCountPerPage={imagesPerPage}

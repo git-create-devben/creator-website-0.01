@@ -49,7 +49,7 @@ const service = () => {
                   <i> weddings</i>
                   <i>Commercial</i>
                 </span>
-                <button className="px-12 py-4 bg-white opacity-80 rounded-2xl text-black">
+                <button className="lg:px-12 lg:py-4 px-2 py-2 bg-white opacity-80 rounded-2xl text-black">
                   <Link to={"/contact"}> Get In touch</Link>
                 </button>
               </div>
@@ -74,7 +74,7 @@ const service = () => {
                   <i> weddings</i>
                   <i>Commercial</i>
                 </span>
-                <button className="px-12 py-4 bg-white opacity-80 rounded-2xl text-black">
+                <button className="lg:px-12 lg:py-4 px-2 py-2 bg-white opacity-80 rounded-2xl text-black">
                   <Link to={"/Gallery"}> My portfolio</Link>
                 </button>
               </div>

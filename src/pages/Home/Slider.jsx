@@ -16,7 +16,7 @@ export default function Carousel() {
     >
       <div className="flex lg:mx-11 lg:flex-row gap-6 ">
         <div className="embla__slide slider1 relative ">
-          <div className="absolute lg:top-[28rem] bottom-[12rem] lg:left-12 left-2">
+          <div className="absolute lg:top-[28rem] bottom-[16rem] lg:left-12  sm:bottom-[12rem] left-2 ">
             <hr className="w-24 font-extrabold hr mb-4" />
             <h1 className="text-white lg:text-6xl text-2xl font-extrabold mb-2">
               Christina Demertzi

@@ -8,3 +8,76 @@
     aspect-ratio: 1/1;
     border-radius: 30px;
 }
+
+/* styles.css */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination .page-item {
+    margin: 0 5px;
+  }
+  
+  .pagination .page-link {
+    padding: 4px 6px;
+    border: 1px solid #ddd;
+    color: #ffffff;
+    background-color: #ffffff2f;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .pagination .page-link:hover {
+    background-color: goldenrod;
+    border: 1px solid goldenrod;
+  }
+  
+  .pagination .active .page-link {
+    background-color: goldenrod;
+    color: #fff;
+    border: 1px solid goldenrod;
+  }
+  
+
+  /* gallery.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Ensure a higher z-index than other elements */
+  }
+  
+  .modal-content {
+    position: relative;
+    width: 80%; /* Adjust as needed */
+    max-width: 800px; /* Adjust as needed */
+    border-radius: 8px;
+    padding: 20px;
+    z-index: 1001; /* Ensure a higher z-index than the overlay */
+  }
+  
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    z-index: 1002; /* Ensure a higher z-index than the overlay and content */
+  }
+  
+  .modal-image {
+    width: 100%;
+    height: auto;
+    max-height: 80vh; /* Adjust as needed */
+    object-fit: contain;
+  }
+  

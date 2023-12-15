@@ -76,7 +76,7 @@ const Contact = () => {
               placeholder="Your message*"
             ></textarea>
           </div>
-          <button className="px-12 py-4 bg-white opacity-80 rounded-full">
+          <button className="px-12 py-4 bg-white opacity-80 rounded-full mt-4 lg:mt-0">
             <Link to={"/Gallery"}>Send Message</Link>
           </button>
         </div>

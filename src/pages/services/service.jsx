@@ -63,7 +63,7 @@ const service = () => {
 
               <div className="space-y-5 text-white">
                 <h2 className="text-2xl font-extrabold opacity-80 font-sans">
-                  Wedding Photography
+                  Commercial Photography
                 </h2>
                 <p className="text-sm text-white opacity-50">
                   Lorem ipsum dolor sit abet consectetur, adipisicing edit.

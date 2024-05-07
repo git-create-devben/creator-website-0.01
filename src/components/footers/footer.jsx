@@ -21,7 +21,7 @@ const footer = () => {
       <hr className="w-24 text-white opacity-50 lg:flex hidden" />
       <div className="text-white flex flex-wrap lg:text-1xl text-sm">
         <span>&copy; Christina 2023. </span>
-        <span>
+{/*         <span>
           Design &amp; developed by{" "}
           <a
             href="#"
@@ -31,7 +31,7 @@ const footer = () => {
           >
             DevBen
           </a>
-        </span>
+        </span> */}
         <Social />
       </div>
     </section>
